@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241754667854",
+    "project_id": "mediumnotification",
+    "storage_bucket": "mediumnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241754667854:android:d601604f094c58d9893c1f",
+        "android_client_info": {
+          "package_name": "com.ibrahimethemsen.firebasenotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241754667854-vca5mp3hmdfm0ejsru3ce2ntrv0ph1me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnGCi0UbnCoGzmAc7kXm1-13AjQG8YOdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241754667854-vca5mp3hmdfm0ejsru3ce2ntrv0ph1me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
