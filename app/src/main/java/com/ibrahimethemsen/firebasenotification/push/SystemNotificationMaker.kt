@@ -21,7 +21,7 @@ import com.ibrahimethemsen.firebasenotification.utility.Constants.REMEMBER
 class SystemNotificationMaker(
     private val context: Context
 ) {
-    private val chanelId = "firebase_chanel"
+    private val chanelId = "firebase_push"
     private lateinit var pendingIntent: PendingIntent
 
     fun make(
@@ -68,10 +68,10 @@ class SystemNotificationMaker(
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun notificationChanel(notificationManager: NotificationManager) {
-        val chanelName = "firebaseChannel"
+        val chanelName = "firebasePush"
         val channel =
             NotificationChannel(chanelId, chanelName, NotificationManager.IMPORTANCE_HIGH).apply {
-                description = "notification kanal"
+                description = "firebase_push"
                 enableLights(true)
                 lightColor = Color.MAGENTA
             }
